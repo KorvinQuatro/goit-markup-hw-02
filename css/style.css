@@ -1,0 +1,160 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --secondary-fon-color: #f5f4fa;
+}
+
+body {
+  background-color: #e5e5e5;
+  color: var(--primary-text-color);
+  font-family: roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+.list {
+  list-style: none;
+}
+
+/* Header */
+
+.logo {
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.logo-first {
+  color: var(--accent-color);
+}
+.logo-second {
+  color: var(--title-text-color);
+}
+.site-nav .link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.adress {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.adress:hover,
+.adress:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero-title {
+  color: #ffffff;
+  letter-spacing: 0.06em;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+}
+.hero-button {
+  color: #ffffff;
+  background-color: var(--accent-color);
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+/* Section */
+
+.section-title {
+  color: var(--title-text-color);
+  text-align: center;
+}
+
+/* Features */
+
+.features-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+}
+.features-text {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* Employee */
+
+.employee-title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+}
+.employee-position {
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+/* Adress */
+
+.adress {
+  font-size: 14px;
+  line-height: 1.7;
+}
+.adress-gps {
+  color: #ffffff;
+}
+.adress-mail {
+  color: rgb(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.adress-tel {
+  color: rgb(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+/* Portfolio filter */
+
+.button-filter {
+  color: var(--title-text-color);
+  background-color: var(--secondary-fon-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+}
+.button-filter:hover,
+.button-filter:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+/* Portfolio */
+
+.portfolio-examples-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.7;
+  letter-spacing: 0.06em;
+}
+.portfolio-examples-text {
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+
+/* вторичный цвет фона #F5F4FA */
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* акцент #2196F3 */
+/* белый #FFFFFF */
+/* rgb(255, 255, 255, 0.6) */
