@@ -2,11 +2,13 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
+  --primary-fon-color: #2f303a;
   --secondary-fon-color: #f5f4fa;
+  --adress-text-color: rgb(255, 255, 255, 0.6);
+  --white: #ffffff;
 }
 
 body {
-  background-color: #e5e5e5;
   color: var(--primary-text-color);
   font-family: roboto, sans-serif;
   letter-spacing: 0.03em;
@@ -16,8 +18,10 @@ body {
 }
 
 /* Header */
-
-.logo {
+.header {
+  background-color: var(--white);
+}
+.header .logo {
   font-family: raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -29,6 +33,15 @@ body {
 }
 .logo-second {
   color: var(--title-text-color);
+}
+
+.studio {
+  color: var(--accent-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .site-nav .link {
   color: var(--title-text-color);
@@ -44,6 +57,7 @@ body {
 }
 .adress {
   color: var(--primary-text-color);
+  font-weight: 500;
   text-decoration: none;
 }
 .adress:hover,
@@ -53,8 +67,11 @@ body {
 
 /* Hero */
 
+.hero {
+  background-color: var(--primary-fon-color);
+}
 .hero-title {
-  color: #ffffff;
+  color: var(--white);
   letter-spacing: 0.06em;
   font-weight: 900;
   font-size: 44px;
@@ -62,7 +79,7 @@ body {
   text-align: center;
 }
 .hero-button {
-  color: #ffffff;
+  color: var(--white);
   background-color: var(--accent-color);
   letter-spacing: 0.06em;
   font-weight: 700;
@@ -74,6 +91,9 @@ body {
 
 .section-title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
   text-align: center;
 }
 
@@ -91,7 +111,9 @@ body {
 }
 
 /* Employee */
-
+.employee {
+  background-color: var(--secondary-fon-color);
+}
 .employee-title {
   color: var(--title-text-color);
   font-weight: 500;
@@ -103,21 +125,37 @@ body {
   line-height: 1.2;
 }
 
-/* Adress */
+/* footer */
 
-.adress {
+.footer {
+  background-color: var(--primary-fon-color);
+}
+.footer-logo {
+  font-family: raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.footer-logo-first {
+  color: var(--accent-color);
+}
+.footer-logo-second {
+  color: var(--white);
+}
+
+.footer-adress {
   font-size: 14px;
   line-height: 1.7;
 }
 .adress-gps {
-  color: #ffffff;
+  color: var(--white);
 }
 .adress-mail {
-  color: rgb(255, 255, 255, 0.6);
+  color: var(--adress-text-color);
   text-decoration: none;
 }
 .adress-tel {
-  color: rgb(255, 255, 255, 0.6);
+  color: var(--adress-text-color);
   text-decoration: none;
 }
 
@@ -129,16 +167,23 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.4;
-  letter-spacing: 0.03em;
 }
 .button-filter:hover,
 .button-filter:focus {
-  color: #ffffff;
+  color: var(--white);
   background-color: var(--accent-color);
 }
 
 /* Portfolio */
 
+.portfolio-button {
+  color: var(--accent-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
 .portfolio-examples-title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -149,12 +194,4 @@ body {
 .portfolio-examples-text {
   font-size: 16px;
   line-height: 1.6;
-  letter-spacing: 0.03em;
 }
-
-/* вторичный цвет фона #F5F4FA */
-/* цвет основного текста #212121 */
-/* вторичный цвет текста #757575 */
-/* акцент #2196F3 */
-/* белый #FFFFFF */
-/* rgb(255, 255, 255, 0.6) */
