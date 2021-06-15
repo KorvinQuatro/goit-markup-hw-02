@@ -18,9 +18,11 @@ body {
 }
 
 /* Header */
+
 .header {
   background-color: var(--white);
 }
+
 .header .logo {
   font-family: raleway, sans-serif;
   font-weight: 700;
@@ -144,6 +146,7 @@ body {
 }
 
 .footer-adress {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.7;
 }
@@ -182,6 +185,10 @@ body {
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.portfolio-link {
+  color: var(--primary-text-color);
   text-decoration: none;
 }
 .portfolio-examples-title {
