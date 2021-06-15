@@ -22,8 +22,10 @@ body {
 .header {
   background-color: var(--white);
 }
-
-.header .logo {
+.adress {
+  font-weight: 500;
+}
+.logo {
   font-family: raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -131,12 +133,6 @@ body {
 
 .footer {
   background-color: var(--primary-fon-color);
-}
-.footer-logo {
-  font-family: raleway, sans-serif;
-  font-size: 26px;
-  line-height: 1.2;
-  text-decoration: none;
 }
 .footer-logo-first {
   color: var(--accent-color);
